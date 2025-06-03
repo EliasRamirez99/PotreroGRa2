@@ -1,0 +1,95 @@
+/*Google Fonts
+/* <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+/*
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* // <weight>: Use a value from 400 to 900
+// <uniquifier>: Use a unique and descriptive class name
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Fondo sólido para index */
+body.index {
+  background-color: #fff5e6;
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Fondo sólido para instructivos */
+body.instructivo {
+  background-color: #d7fa964b;
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Título principal */
+.site-title {
+  font-family: 'Playfair Display', serif;
+  color: #c0392b;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Títulos de recetas */
+.recipe-title {
+  font-family: 'Playfair Display', serif;
+  color: #ec700b;
+  margin-bottom: 0.5rem;
+}
+
+/* Descripción de recetas */
+.recipe-desc {
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Enlaces de navegación e información */
+.external-link {
+  font-family: 'Roboto', sans-serif;
+  color: #2980b9;
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.external-link:hover {
+  text-decoration: underline;
+}
+
+/* Estilos comunes para views */
+body {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+/* Títulos de secciones de ingredientes y pasos */
+.receta-title {
+  font-family: 'Playfair Display', serif;
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+/* Listas de ingredientes y pasos */
+ul, ol {
+  font-family: 'Roboto', sans-serif;
+  color: #0c3f02;
+  margin-left: 1rem;
+}
